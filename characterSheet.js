@@ -1,37 +1,36 @@
 const data = {
-  name: 'Claudio',
-  player: 'Ryan',
-  occupation: 'Caçador',
-  age: 21,
+  name: 'Biru',
+  player: 'Darkis-BB,
+  occupation: 'Atleta',
+  age: 19,
   sex: 'male',
-  birthplace: 'São paulo',
-  residence: 'São paulo',
+  ,
 
   life: {
-    current: 12,
-    max: 12,
+    current: 15,
+    max: 15,
   },
   sanity: {
-    current: 62,
-    max: 62,
+    current: 26,
+    max: 29,
   },
 
   weapons: [
     {
-      name: 'Balestra',
-      type: 'Arco',
-      damage: '1d20',
+      name: 'Metralhadora,
+      type: 'fogo',
+      damage: '1d10+1d4',
       numCurrent: 1,
       numMax: 1,
       attack: 5,
-      reach: '10 m',
-      defect: 1,
+      reach: '',
+      defect: 0,
       area: '',
     },
     {
-      name: 'Canivete',
+      name: 'Katana',
       type: 'Briga',
-      damage: '1d10',
+      damage: '1d8',
       numCurrent: '',
       numMax: '',
       attack: '1/2',
@@ -43,35 +42,35 @@ const data = {
   attributes: [
     {
       type: 'Aparência',
-      amount: 10,
+      amount: 07,
     },
     {
       type: 'Constituição',
-      amount: 10,
+      amount: 14,
     },
     {
       type: 'Destreza',
-      amount: 10,
+      amount: 15,
     },
     {
       type: 'Educação',
-      amount: 10,
+      amount: 05,
     },
     {
       type: 'Força',
-      amount: 10,
+      amount: 12,
     },
     {
       type: 'Inteligência',
-      amount: 10,
+      amount: 12,
     },
     {
       type: 'Poder',
-      amount: 10,
+      amount: 04,
     },
     {
       type: 'Sorte',
-      amount: 10,
+      amount: 09,
     },
   ],
 }
